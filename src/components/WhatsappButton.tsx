@@ -1,4 +1,4 @@
-export default function WhatsAppButton() {
+export default function WhatsappButton() {
   return (
     <a
       href="https://wa.me/5521999999999?text=Olá%20gostaria%20de%20falar%20com%20um%20especialista"

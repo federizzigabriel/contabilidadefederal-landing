@@ -8,7 +8,7 @@ import QuemSomos from "./pages/Sobre";
 import AreasAtuacao from "./pages/Servicos";
 import Contato from "./pages/Contato";
 import ScrollToTop from "./components/ScrollToTop";
-import WhatsAppButton from "./components/WhatsAppButton";
+import WhatsappButton from "./components/WhatsappButton";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
 
       </Routes>
 
-      <WhatsAppButton />
+      <WhatsappButton />
 
       <Footer />
 
