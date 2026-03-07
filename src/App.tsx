@@ -7,10 +7,14 @@ import Home from "./pages/Home";
 import QuemSomos from "./pages/Sobre";
 import AreasAtuacao from "./pages/Servicos";
 import Contato from "./pages/Contato";
+import ScrollToTop from "./components/ScrollToTop";
+import WhatsappButton from "./components/WhatsAppButton";
 
 function App() {
   return (
     <BrowserRouter>
+
+      <ScrollToTop />
 
       <Navbar />
 
@@ -22,6 +26,8 @@ function App() {
         <Route path="/contato" element={<Contato />} />
 
       </Routes>
+
+      <WhatsappButton />
 
       <Footer />
 
