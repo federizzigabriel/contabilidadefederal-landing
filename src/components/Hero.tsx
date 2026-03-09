@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="max-w-xl">
 
           <h1 className="text-5xl lg:text-5xl font-bold leading-tight mb-6">
-            Contabilidade Federal: estratégica para empresas que querem crescer
+            Contabilidade Federal: Estratégia para empresas que querem crescer
           </h1>
 
           <p className="text-lg text-blue-100 mb-10">
